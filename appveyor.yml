@@ -5,7 +5,7 @@ platform:
 
 branches:
   only:
-    - /master|^v\d+\.\d+\.\d+$/
+    - /master|^v\d+\.\d+\.\d+(-.*)?$/
 
 install:
   # https://www.appveyor.com/docs/lang/nodejs-iojs/#installing-any-version-of-nodejs-or-iojs
